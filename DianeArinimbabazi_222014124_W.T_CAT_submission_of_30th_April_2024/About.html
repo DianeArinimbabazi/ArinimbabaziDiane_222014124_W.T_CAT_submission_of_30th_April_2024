@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Linking to external stylesheet -->
+  <link rel="stylesheet" type="text/css" href="style.css" title="style 1" media="screen, tv, projection, handheld, print"/>
+  <!-- Defining character encoding -->
+  <meta charset="utf-8">
+  <!-- Setting viewport for responsive design -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>About Page</title>
+  <style>
+    /* CSS styles for the page */
+    /* Normal link */
+    a {
+      padding: 10px;
+      color: white;
+      background-color:black;
+      text-decoration: none;
+      margin-right: 15px;
+    }
+
+    /* Visited link */
+    a:visited {
+      color: beige;
+    }
+
+    /* Unvisited link */
+    a:link {
+      color: beige;
+    }
+
+    /* Hover effect */
+    a:hover {
+      background-color: beige;
+    }
+
+    /* Active link */
+    a:active {
+      background-color: burlywood;
+    }
+
+    /* Extend margin left for search button */
+    button.btn {
+      margin-left: 15px;
+      margin-top: 4px;
+    }
+
+    /* Form input styling */
+    input.form-control {
+      margin-left: 500px;
+      padding: 8px;
+    }
+
+    /* Table styling */
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    th, td {
+      border: 1px solid #ddd;
+      padding: 8px;
+      text-align: left;
+    }
+
+    th {
+      background-color: #f2f2f2;
+    }
+
+    /* Header style */
+    header {
+      background-color: beige;
+      padding: 10px;
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body style="background-image: url('./Images/image5.png');background-repeat: no-repeat;background-size:cover;">
+  <!-- Header section -->
+  <header>
+    <h1>ABOUT US</h1>
+    <!-- Search form -->
+    <form class="d-flex" role="search" action="search.php">
+      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success" type="submit">Search</button>
+    </form>
+    <!-- Navigation links -->
+    <ul style="list-style-type: none; padding: 0;">
+      <li style="display: inline; margin-right: 10px;">
+        <img src="./Images/image12.png" width="90" height="60" alt="Logo">
+      </li>
+      <li style="display: inline; margin-right: 10px;"><a href="./Home.html">HOME</a></li>
+      <li style="display: inline; margin-right: 10px;"><a href="./About.html">ABOUT</a></li>
+      <li style="display: inline; margin-right: 10px;"><a href="./Contact.html">CONTACT</a></li>
+      <li style="display: inline; margin-right: 10px;"><a href="./supprier.php">SUPPRIER</a></li>
+      <li style="display: inline; margin-right: 10px;"><a href="./sales.php">SALES</a></li>
+      <li style="display: inline; margin-right: 10px;"><a href="./patients.php">PATIENTS</a></li>
+      <li style="display: inline; margin-right: 10px;"><a href="./medecine.php">MEDECINE</a></li>
+      <li style="display: inline; margin-right: 10px;"><a href="./inventory.php">INVENTORY</a></li>
+  
+      <!-- Dropdown menu -->
+      <li class="dropdown" style="display: inline; margin-right: 10px;">
+        <a href="#" style="padding: 10px; color: grey; background-color:black; text-decoration: none; margin-right: 15px;">Settings</a>
+        <div class="dropdown-contents">
+          <!-- Links inside the dropdown menu -->
+          <a href="login.html">Login</a>
+          <a href="register.html">Register</a>
+          <a href="logout.php">Logout</a>
+        </div>
+      </li>
+    </ul>
+  </header>
+  
+  <!-- Main content section -->
+  <section>
+    <h2 style="color: black;"><bold> <i>OUR MISSION<i></i></bold></h2>
+    <p><h3 style="color: black;">
+      Streamline and optimize the operations of a pharmacy, ensuring efficient management of medication dispensing, inventory, patient information, and financial transactions.
+      It aims to enhance the overall quality of patient care by improving medication safety, reducing errors, and increasing convenience for both patients and healthcare providers.
+      A PMS also plays a crucial role in regulatory compliance, reporting, and decision-making, ultimately contributing to the effective and sustainable operation of a pharmacy.
+    </h3></p>
+    
+    <h2 style="color:black;"><bold><i>WHAT WE DO  </i></bold></h2>
+    <p><h3 style="color: black;">
+      <ul>
+      <li><b>Medication Dispensing</b></li>
+     <li><b>Inventory Managemen</b></li>
+     <li><b>Patient Profiles</b></li>
+     <li><b>Prescription Management</b></li>
+     <li><b>Billing and Insurance</b></li>
+      </ul>
+    </h3></p>
+  </section>
+
+  <!-- Footer section -->
+  <footer>
+    <center> 
+      <b><h2>UR CBE BIT &copy 2024 &reg Designed by: @Diane ARINIMBABAZI</h2></b>
+    </center>
+  </footer>
+</body>
+</html>
